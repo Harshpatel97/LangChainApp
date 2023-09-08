@@ -1,4 +1,14 @@
 # LangChainApp
+The Langchain PDF Chatbot is an open-source application designed to enable natural language interactions with personal PDF documents. It leverages the power of natural language processing (NLP) and machine learning to extract, understand, and provide information from PDF files through a chat interface.
+
+## Features
+1. Load PDF documents from a specified directory.
+2. Split text from PDFs into chunks for efficient processing.
+3. Convert text chunks into embeddings for similarity-based retrieval.
+4. Utilize Pre-trained Hugging Face embeddings model.
+5. Perform Retrieval-based question-answering using a Language Model(LLM).
+6. Command-line interface for user interaction.
+7. Exit the chatbot by typing 'exit'.
 
 # How to run?
 ### STEPS:
@@ -6,7 +16,7 @@
 Clone the repository
 
 ```bash
-https://github.com/Harshpatel97/LangChainApp.git
+git clone https://github.com/Harshpatel97/LangChainApp.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
