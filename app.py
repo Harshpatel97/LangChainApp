@@ -10,7 +10,7 @@ from PyPDF2 import PdfReader
 
 
 #**Step 1: Load the PDF File from Data Path****
-loader=DirectoryLoader('data/',
+loader=DirectoryLoader('Data/',
                        glob="*.pdf",
                        loader_cls=PyPDFLoader)
 
