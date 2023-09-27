@@ -1,3 +1,5 @@
+You can access the app on hugginfacespace - ●	https://huggingface.co/spaces/HarshPatel20/chatwithpdf
+
 
 ![Screenshot 2023-09-27 165305](https://github.com/Harshpatel97/LangChainApp/assets/129877052/9693c7e2-9d7c-44ba-9a21-548f129d90d8)
 
