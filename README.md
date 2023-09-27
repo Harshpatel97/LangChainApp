@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 # Finally run the following command
 ```bash
-python app.py
+streamlit run app.py
 ```
 ### Now you can chat with you pdfs
 
