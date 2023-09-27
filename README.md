@@ -1,8 +1,14 @@
+
+![Screenshot 2023-09-27 165305](https://github.com/Harshpatel97/LangChainApp/assets/129877052/9693c7e2-9d7c-44ba-9a21-548f129d90d8)
+
+
+
 # LangChainApp
 LANGCHAIN is a powerful tool designed to streamline the process of extracting information from PDF documents through natural language interactions. This project leverages the Langchain library and integrates Google's PaLM (Language Model) to enable seamless interactions with PDF files. It also provides a user-friendly interface developed using Streamlit for easy access and utilization.
 
 ## Features
 ### Natural Language Interaction
+
 You can ask questions or request specific information, and the integrated Google PaLM model will provide relevant answers based on the content of the PDF.
 
 ### PDF Information Retrieval
