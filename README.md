@@ -1,14 +1,16 @@
 # LangChainApp
-The Langchain PDF Chatbot is an open-source application designed to enable natural language interactions with personal PDF documents. It leverages the power of natural language processing (NLP) and machine learning to extract, understand, and provide information from PDF files through a chat interface.
+LANGCHAIN is a powerful tool designed to streamline the process of extracting information from PDF documents through natural language interactions. This project leverages the Langchain library and integrates Google's PaLM (Language Model) to enable seamless interactions with PDF files. It also provides a user-friendly interface developed using Streamlit for easy access and utilization.
 
 ## Features
-1. Load PDF documents from a specified directory.
-2. Split text from PDFs into chunks for efficient processing.
-3. Convert text chunks into embeddings for similarity-based retrieval.
-4. Utilize Pre-trained Hugging Face embeddings model.
-5. Perform Retrieval-based question-answering using a Language Model(LLM).
-6. Command-line interface for user interaction.
-7. Exit the chatbot by typing 'exit'.
+### Natural Language Interaction
+You can ask questions or request specific information, and the integrated Google PaLM model will provide relevant answers based on the content of the PDF.
+
+### PDF Information Retrieval
+You can quickly find specific information within PDF documents without the need to manually search through lengthy files. Whether you need to extract data, quotes, statistics, or any other content, LANGCHAIN can assist you efficiently.
+
+### Streamlit Interface
+The user interface is designed with Streamlit, a popular Python library for creating web applications with minimal effort. The Streamlit interface ensures a smooth and intuitive user experience, making it accessible to users of all technical backgrounds.
+
 
 # How to run?
 ### STEPS:
@@ -31,12 +33,9 @@ conda activate langchain
 ```bash
 pip install -r requirements.txt
 ```
-### STEP 3- Create a models folder and download Quantised version of Llama 2 which can run on CPU and save it into models folder
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q4_0.bin
 
-### STEP 4- You can add your PDF files into Data folder 
-```bash
 # Finally run the following command
+```bash
 python app.py
 ```
 ### Now you can chat with you pdfs
