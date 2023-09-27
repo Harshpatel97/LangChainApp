@@ -33,6 +33,11 @@ conda activate langchain
 ```bash
 pip install -r requirements.txt
 ```
+### STEP 03- create a .env folder and copy the API key
+https://makersuite.google.com/app/home
+```bash
+GOOGLE_API_KEY = 
+```
 
 # Finally run the following command
 ```bash
