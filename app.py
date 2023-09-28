@@ -1,19 +1,28 @@
 import streamlit as st
 from dotenv import load_dotenv
 
-from functions import *
+from helper_functions import *
 
 def main():
+    # Loading the api key from env folder
     load_dotenv()
     st.set_page_config("Chat with Multiple PDFs")
+    
+    # Header of the Page.
     st.header("Chat with PDF :books:")
+    
+    # Taking the question of the user.
     user_question = st.text_input("Ask a Question from the PDF Files")
+    
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
     if "chatHistory" not in st.session_state:
         st.session_state.chatHistory = None
+        
     if user_question:
         user_input(user_question)
+        
+    # Upload you pdf files.
     with st.sidebar:
         st.subheader("Upload your Documents")
         pdf_docs = st.file_uploader("Upload your PDF and Click on the Process", accept_multiple_files=True)
